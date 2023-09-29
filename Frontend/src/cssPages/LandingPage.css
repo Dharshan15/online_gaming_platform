@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com');
+
+.landingPage {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+}
+
+.hero {
+  background-color: #000000;
+  color: white;
+  font-size: 35px;
+  z-index: 0;
+}
+
+.sub-text {
+  font-size: 25px;
+}
+
+.landingH1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.landingH2 {
+  font-size: 40px;
+}
+
+.p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.htext {
+  margin: 40px;
+  margin-bottom: 200px;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300px;
+}
+
+.minipekka {
+  margin-left: 40px;
+  margin-bottom: 100px;
+  height: 550px;
+  width: 550px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.button-centerer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #b66effe2;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #b66effe2;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.subsection1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+}
+
+.projects {
+  width: 300px;
+  height: 475px;
+  box-shadow: 3px 3px 15px #b66effe2;
+  margin: 5px;
+}
+
+.pro {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .pro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-text {
+    font-size: 20px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .minipekka {
+    display: none;
+  }
+
+  .sub-text {
+    font-size: 25px;
+    width: auto;
+  }
+}
+
+.proimage {
+  margin-top: 25px;
+  width: 225px;
+  height: 225px;
+  border-radius: 125px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logoLand {
+  width: 130px;
+  height: 80px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com');
+
+.landingNav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .landingUl {
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+  
+  .LandList {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+  .vs
+  {
+    background-color: black;
+  }

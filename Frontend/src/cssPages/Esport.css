@@ -1,0 +1,51 @@
+.tournament-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-heading {
+  font-weight: bold;
+}
+
+.add-tournament,
+.update-tournament {
+  margin-top: 20px;
+}
+
+.add-tournament input,
+.update-tournament input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.add-tournament button,
+.update-tournament button {
+  padding: 5px 10px;
+  background-color: #405d6e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-tournament button:hover,
+.update-tournament button:hover {
+  background-color: #000000;
+}
+
+.add-tournament h2,
+.update-tournament h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #494949;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #717171;
+}

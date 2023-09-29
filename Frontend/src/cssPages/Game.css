@@ -1,0 +1,29 @@
+.gamelist{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.gamecon{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    max-height: 320px;
+    box-shadow: 3px 3px 15px #ba88ebe2 ;
+    margin: 5px;
+    border-radius: 10px;
+}
+.gameimg{
+    margin-top: 25px;
+    width: 400px;
+    height: 225px;
+    /* border-radius: 125px; */
+}
+.subtextgame{
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.h3game{
+    color: white;
+}

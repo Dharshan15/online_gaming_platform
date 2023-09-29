@@ -1,0 +1,23 @@
+.containergame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+    background-color: red;
+    width: 305px;
+    height: 303px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+  }
+  
+  .mole {
+    background-color: black;
+  }
+  

@@ -1,0 +1,81 @@
+
+.score-display-container{
+  background-color: #ffffff;
+}
+.score-display-title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: auto;
+    color: #000000; /* Set the text color to be visible on the blurred background */
+  }
+  
+  .score-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  }
+  
+  .score-card {
+    width: 200px;
+    padding: 20px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #c4c0c061;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .no-score-message {
+    font-size: 18px;
+    text-align: center;
+    color: #fff; /* Set the text color to be visible on the blurred background */
+  }
+  
+  .textm{
+    color: #000000;
+  }
+   
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pagination-buttons li {
+    margin: 0 5px;
+  }
+  
+  .pagination-buttons button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-buttons .active button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .edit-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #555;
+  }
